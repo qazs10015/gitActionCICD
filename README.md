@@ -17,7 +17,7 @@
 
 輸入一個 secret Name 和剛剛取得的 token
 
-![image](https://user-images.githubusercontent.com/30744341/149655907-fd39bd95-3130-4e56-9600-bc64f659f9d4.png)
+![image](https://user-images.githubusercontent.com/30744341/149656328-7a117995-6ebd-4ff6-b365-3e973c2c2c53.png)
 
 新增成功後就會顯示
 
