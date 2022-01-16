@@ -21,7 +21,7 @@
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [dev]
+    branches: [master]
   pull_request:
     branches: [master]
 ```
@@ -62,7 +62,7 @@ jobs:
 
       - name: commit file
         run: |
-          cd ./docs
+          cd ./dist
           git init -b gh-pages
           git config --local user.name $USER_NAME
           git config --local user.email $USER_EMAIL
