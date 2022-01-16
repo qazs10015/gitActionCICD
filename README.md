@@ -3,8 +3,9 @@
 
 [收費方式可見內文](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions)
 > 如果 repository 為 public 就不用錢! (2022/01/16)
+---
 
-需要產生一組 TOKEN 用於發佈，可於 `Setting => Developer settings => Personal access tokens` 產生，步驟如下：
+首先，需要產生一組 TOKEN 用於發佈，可於 `Setting => Developer settings => Personal access tokens` 產生，步驟如下：
 
 
 ![image](https://user-images.githubusercontent.com/30744341/149654371-3b28d084-981d-43f3-8c84-938b8690e244.png)
