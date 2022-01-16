@@ -63,7 +63,7 @@ jobs:
 
 1. 完成後切到放置檔案的資料夾，本專案為 `./docs` 
 1. 進行 git 初始化，新增分支 `gh-pages`，設定相關 git 發佈資訊
-> gh-pages 分支較為特別，為 gitPage 專用的分支，如果專案有此分支會自動發佈到 GitPages，且無法關閉 GitPages，詳情可見 [Unpublishing a GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/unpublishing-a-github-pages-site#unpublishing-a-project-site)
+> gh-pages 分支較為特別，為 GitPages 專用的分支，如果專案有此分支會自動發佈到 GitPages，且無法關閉，詳情可見 [Unpublishing a GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/unpublishing-a-github-pages-site#unpublishing-a-project-site)
 
 ![image](https://user-images.githubusercontent.com/30744341/149655218-b96a33a4-18e5-4897-b139-25f31d773800.png)
 
