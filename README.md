@@ -8,9 +8,23 @@
 
 ![image](https://user-images.githubusercontent.com/30744341/149654427-440e6af9-2c53-4d52-b48a-f7e0062ca078.png)
 
-![image](https://user-images.githubusercontent.com/30744341/149654476-93904158-89e1-4939-a980-bfe26fcdc264.png)
+> NOTE： 產生出來的 TOKEN `只顯示一次` 請妥善保存，日後設定權限會用到
 
-有了 TOKEN 後就可以開始寫 .yml 拉💪
+![image](https://user-images.githubusercontent.com/30744341/149655778-e1303ac0-3073-4039-972e-828d614fe47c.png)
+
+回到 `repository => Setting => Secrets`，點選 New repository secret
+![image](https://user-images.githubusercontent.com/30744341/149655931-0501d0e9-aec8-4602-8a7e-4d77f4d627b2.png)
+
+輸入一個 secret Name 和剛剛取得的 token
+
+![image](https://user-images.githubusercontent.com/30744341/149655907-fd39bd95-3130-4e56-9600-bc64f659f9d4.png)
+
+新增成功後就會顯示
+
+![image](https://user-images.githubusercontent.com/30744341/149655986-15240b5c-fc12-4748-b68c-5dc4bd57e25a.png)
+
+
+完成以上專案設定的步驟後後就可以開始寫 .yml 拉💪
 
 ---
 以下簡單敘述此專案的 .yml ，整個 workflow 可以有多個 jobs，每個 jobs 下也可以有多個動作
@@ -28,9 +42,9 @@ on:
 
 1. 此 workflow 下有一個 jobs 叫做 build
 
-1. 定義環境變數 env，其底下包含 MY_SECRET、USER_NAME、USER_EMAIL
+2. 定義環境變數 env，其底下包含 MY_SECRET、USER_NAME、USER_EMAIL
 
-1. 需要在最新版的 ubuntu 系統下執行
+3. 需要在最新版的 ubuntu 系統下執行
 ``` yml
 jobs:
   # This workflow contains a single job called "build"
