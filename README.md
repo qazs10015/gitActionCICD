@@ -21,7 +21,8 @@
 
 新增成功後就會顯示
 
-![image](https://user-images.githubusercontent.com/30744341/149655986-15240b5c-fc12-4748-b68c-5dc4bd57e25a.png)
+![image](https://user-images.githubusercontent.com/30744341/149656271-354771d0-ebe2-4957-a854-ae577dbe2317.png)
+
 
 
 完成以上專案設定的步驟後後就可以開始寫 .yml 拉💪
