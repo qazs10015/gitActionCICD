@@ -4,11 +4,11 @@ name: CI
 
 # Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the master branch
+  # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [master]
+    branches: [main]
   pull_request:
-    branches: [master]
+    branches: [main]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -19,7 +19,7 @@ jobs:
   build:
     env:
       MY_SECRET: ${{secrets.ACCESS_TOKEN}}
-      USER_NAME: junyu
+      USER_NAME: qazs10015
       USER_EMAIL: happystyle666@gmail.com
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
@@ -27,7 +27,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       # install enviornmant
       - name: install
         run: npm install
@@ -37,7 +37,7 @@ jobs:
 
       - name: commit file
         run: |
-          cd ./dist
+          cd ./docs
           git init -b gh-pages
           git config --local user.name $USER_NAME
           git config --local user.email $USER_EMAIL
